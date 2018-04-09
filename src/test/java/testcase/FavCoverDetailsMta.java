@@ -489,7 +489,7 @@ catch(Exception e)
    		driver.findElement(By.xpath("//input[@id='more_property1']")).click();
    	 }				
    						
-   						//------------------------------------------Maximum Sum Insured-------------------------------------------------
+   						//--------------------------------------------Maximum Sum Insured-------------------------------------------------
    						Thread.sleep(5000);
    						
    						WebElement txtlocation=driver.findElement(By.xpath("//input[@class='small pound numaricField requiredNumaric calSameLocAmount']"));
