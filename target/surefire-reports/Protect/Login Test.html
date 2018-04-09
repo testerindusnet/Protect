@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  Login Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 31 19:45:17 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>290 seconds (290630 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcase.PrivateClient.testClient()'><b>testClient</b><br>Test class: testcase.PrivateClient<br/>
+<a href="#Output-1870209957" onClick='toggleBox("Output-1870209957", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1870209957" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1870209957">
+Currency type sent from Excel is Euro (€)<br/>
+Broker sent from Excel is Alsford Page & Gems Limited<br/>
+Broker User sent from Excel is  Andrew Rowe<br/>
+Introducer name sent from Excel is  TLC Estate Agents<br/>
+Title sent from Excel is  Mr<br/>
+PloicyHolder name sent from Excel is  Jefry<br/>
+PloicyHolder Surname sent from Excel is  boycott<br/>
+PloicyHolder mobile number sent from Excel is  9836987656129<br/>
+PloicyHolder email id sent from Excel is  adam@yo
+pmail.com<br/>
+PloicyHolder gender sent from Excel is  Male<br/>
+PloicyHolder country sent from Excel is  UNITED KINGDOM<br/>
+PloicyHolder postcode sent from Excel is  ST74PH<br/>
+PloicyHolder address sent from Excel is  5 Derwent Crescent, Kidsgrove, Stoke-On-Trent<br/>
+PloicyHolder marrital status  sent from Excel is  Married<br/>
+PloicyHolder Date of Birth sent from Excel is  20/05/1990<br/>
+PloicyHolder Employment Status sent from Excel is  Self Employed<br/>
+PloicyHolder Current insurer name sent from Excel is  Aviva<br/>
+PloicyHolder's Expiring Premium sent from Excel is  10000<br/>
+PloicyHolder's Target Premium sent from Excel is  10000<br/>
+PloicyHolder's Target Insurer sent from Excel is  AIG<br/>
+PloicyHolder's Property Type sent from Excel is  Bungalow - semi-detached<br/>
+Has the home previously suffered any damage as a result of subsidence, landslip, heave, structural movement?  Home never suffered any damage<br/>
+Is the home the client’s main residence ?  Main UK residence<br/>
+Who occupies the home and its outbuildings ?  Family and domestic employees<br/>
+Are the home or any outbuildings used for business or professional purposes ?   Admin only, no visitors<br/>
+Intruder alarm    Remote monitoring (ARC)<br/>
+Fire alarm    Integrated with intruder alarm<br/>
+Buildings Sum Assured amount    150000.0<br/>
+Buildings Sum Assured amount     150000.0<br/>
+Fineart unspecified amount     12500.0<br/>
+Currency type sent from Excel is USD ($)<br/>
+Broker sent from Excel is Alsford Page & Gems Limited<br/>
+Broker User sent from Excel is  Andrew Rowe<br/>
+Introducer name sent from Excel is  Guardian Wealth Management<br/>
+Title sent from Excel is  Mrs<br/>
+PloicyHolder name sent from Excel is  Glen<br/>
+PloicyHolder Surname sent from Excel is  Mcgrath<br/>
+PloicyHolder mobile number sent from Excel is  7278123654<br/>
+PloicyHolder email id sent from Excel is  rose@yopmail.com<br/>
+PloicyHolder gender sent from Excel is  Female<br/>
+PloicyHolder country sent from Excel is  UNITED KINGDOM<br/>
+PloicyHolder postcode sent from Excel is  ST74PH<br/>
+PloicyHolder address sent from Excel is  4 Derwent Crescent, Kidsgrove, Stoke-On-Trent<br/>
+PloicyHolder marrital status  sent from Excel is  Single<br/>
+PloicyHolder Date of Birth sent from Excel is  20/05/1995<br/>
+PloicyHolder Employment Status sent from Excel is  Financially Assisted<br/>
+PloicyHolder Current insurer name sent from Excel is  AIG<br/>
+PloicyHolder's Expiring Premium sent from Excel is  15500.0<br/>
+PloicyHolder's Target Premium sent from Excel is  15500.0<br/>
+PloicyHolder's Target Insurer sent from Excel is  Aviva<br/>
+PloicyHolder's Property Type sent from Excel is  Flat - lower ground floor<br/>
+Has the home previously suffered any damage as a result of subsidence, landslip, heave, structural movement?  Once damaged in flood<br/>
+Is the home the client’s main residence ?  Main residence<br/>
+Who occupies the home and its outbuildings ?  Tenants<br/>
+Are the home or any outbuildings used for business or professional purposes ?   Admin only, no visitors<br/>
+Intruder alarm    Audible only<br/>
+Fire alarm    Audible only<br/>
+Buildings Sum Assured amount    255000.0<br/>
+Buildings Sum Assured amount     255000.0<br/>
+Fineart unspecified amount     25000.0<br/>
+Currency type sent from Excel is USD ($)<br/>
+Broker sent from Excel is Alsford Page & Gems Limited<br/>
+Broker User sent from Excel is  Andrew Rowe<br/>
+Introducer name sent from Excel is  TLC Estate Agents<br/>
+PloicyHolder name sent from Excel is  Ricky<br/>
+PloicyHolder Surname sent from Excel is  Ponting<br/>
+PloicyHolder mobile number sent from Excel is  8017293466<br/>
+PloicyHolder email id sent from Excel is  patel@yopmail.com<br/>
+PloicyHolder gender sent from Excel is  Male<br/>
+PloicyHolder country sent from Excel is  UNITED KINGDOM<br/>
+PloicyHolder postcode sent from Excel is  ST74PH<br/>
+PloicyHolder address sent from Excel is  3 Derwent Crescent, Kidsgrove, Stoke-On-Trent<br/>
+PloicyHolder marrital status  sent from Excel is  Single<br/>
+PloicyHolder Date of Birth sent from Excel is  18/05/1998<br/>
+PloicyHolder Employment Status sent from Excel is  Financially Assisted<br/>
+PloicyHolder's Property Type sent from Excel is  Bungalow - semi-detached<br/>
+Has the home previously suffered any damage as a result of subsidence, landslip, heave, structural movement?  Home never suffered any damage<br/>
+Is the home the client’s main residence ?  Main UK residence<br/>
+Who occupies the home and its outbuildings ?  Tenants<br/>
+Are the home or any outbuildings used for business or professional purposes ?   Admin only, no visitors<br/>
+Intruder alarm    Remote monitoring (ARC)<br/>
+Fire alarm    Integrated with intruder alarm<br/>
+Buildings Sum Assured amount    50000.0<br/>
+Fineart unspecified amount     5000.0<br/>
+</div>
+</td>
+<td></td>
+<td>273</td>
+<td>testcase.PrivateClient@6debcae2</td></tr>
+</table><p>
+</body>
+</html>

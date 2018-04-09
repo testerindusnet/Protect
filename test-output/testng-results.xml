@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Rate of Location 1 sent from Excel is  10]]>
+    </line>
+    <line>
+      <![CDATA[Rate of Transit  sent from Excel is  17]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="88275" started-at="2018-04-05T16:16:23Z" finished-at="2018-04-05T16:17:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="88275" started-at="2018-04-05T16:16:23Z" finished-at="2018-04-05T16:17:51Z">
+      <class name="testcase.MtaPolicy1">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:testcase.MtaPolicy1@47c62251]" name="openbrowser" is-config="true" duration-ms="12381" started-at="2018-04-05T21:46:23Z" finished-at="2018-04-05T21:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcase.MtaPolicy1@47c62251]" name="login" is-config="true" duration-ms="1" started-at="2018-04-05T21:46:36Z" finished-at="2018-04-05T21:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcase.MtaPolicy1@47c62251]" name="test" duration-ms="75114" started-at="2018-04-05T21:46:36Z" data-provider="gettestdata" finished-at="2018-04-05T21:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Euro (€)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alsford Page & Gems Limited]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Andrew Rowe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TLC Estate Agents]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Brown]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[mike@yopmail.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[UNITED KINGDOM]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[ST74PH]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[5 Derwent Crescent, Kidsgrove, Stoke-On-Trent]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Single]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[20/05/1995]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Financially Assisted]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Aviva]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[25/01/2017]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[12500.45]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[123456.78]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[AIG]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Houseboat]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Holiday home - incl paying guests]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[Holidaymakers]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Admin only, no visitors]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[ranit.ray@indusnet.co.in]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[PRO17/FV001/001368]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Rate of Location 1 sent from Excel is  10]]>
+            </line>
+            <line>
+              <![CDATA[Rate of Transit  sent from Excel is  17]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testcase.MtaPolicy1@47c62251]" name="closebrowser" is-config="true" duration-ms="0" started-at="2018-04-05T21:47:51Z" finished-at="2018-04-05T21:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testcase.MtaPolicy1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

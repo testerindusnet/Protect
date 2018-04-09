@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect" verbose="1" >
+  <test name="Login Test" >
+    <classes>
+       <class name="testcase.FavFullPolicyScreenReview"/>
+       <!-- <class name="testcase.LondonMarketQuotes"/> -->
+            
+    </classes>
+    
+  </test>
+</suite>

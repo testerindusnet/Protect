@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Protect">
+              <span class="suite-name border-passed">Protect</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Protect">
+                    <span>E:\Workspace\Protect\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Protect">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Protect">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Protect">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Protect">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Protect">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Protect">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Protect" class="hide-methods passed suite-Protect"> (hide)</a> <!-- hide-methods passed suite-Protect -->
+                      <a href="#" panel-name="suite-Protect" class="show-methods passed suite-Protect"> (show)</a> <!-- show-methods passed suite-Protect -->
+                    </span>
+                    <div class="method-list-content passed suite-Protect">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Protect" title="testcase.PrivateClient" hash-for-method="testClient">testClient</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Protect -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Protect" class="panel Protect">
+          <div class="suite-Protect-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase.PrivateClient</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClient">
+                  </a> <!-- testClient -->
+                  <span class="method-name">testClient</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Protect-class-passed -->
+        </div> <!-- panel Protect -->
+        <div panel-name="test-xml-Protect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Workspace\Protect\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Protect&quot;&gt;
+  &lt;test name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcase.PrivateClient&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+&lt;/suite&gt; &lt;!-- Protect --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Protect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Protect</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Protect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Protect</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Protect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Protect</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Protect');
+function tableData_Protect() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testClient')
+data.setCell(0, 2, 'testcase.PrivateClient')
+data.setCell(0, 3, 273478);
+window.suiteTableData['Protect']= { tableData: data, tableDiv: 'times-div-Protect'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Protect">
+              </div> <!-- times-div-Protect -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Protect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Protect</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testClient</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Currency type sent from Excel is Euro (€)</span>
+                <span class="reporter-method-output">Broker sent from Excel is Alsford Page & Gems Limited</span>
+                <span class="reporter-method-output">Broker User sent from Excel is  Andrew Rowe</span>
+                <span class="reporter-method-output">Introducer name sent from Excel is  TLC Estate Agents</span>
+                <span class="reporter-method-output">Title sent from Excel is  Mr</span>
+                <span class="reporter-method-output">PloicyHolder name sent from Excel is  Jefry</span>
+                <span class="reporter-method-output">PloicyHolder Surname sent from Excel is  boycott</span>
+                <span class="reporter-method-output">PloicyHolder mobile number sent from Excel is  9836987656129</span>
+                <span class="reporter-method-output">PloicyHolder email id sent from Excel is  adam@yo
+pmail.com</span>
+                <span class="reporter-method-output">PloicyHolder gender sent from Excel is  Male</span>
+                <span class="reporter-method-output">PloicyHolder country sent from Excel is  UNITED KINGDOM</span>
+                <span class="reporter-method-output">PloicyHolder postcode sent from Excel is  ST74PH</span>
+                <span class="reporter-method-output">PloicyHolder address sent from Excel is  5 Derwent Crescent, Kidsgrove, Stoke-On-Trent</span>
+                <span class="reporter-method-output">PloicyHolder marrital status  sent from Excel is  Married</span>
+                <span class="reporter-method-output">PloicyHolder Date of Birth sent from Excel is  20/05/1990</span>
+                <span class="reporter-method-output">PloicyHolder Employment Status sent from Excel is  Self Employed</span>
+                <span class="reporter-method-output">PloicyHolder Current insurer name sent from Excel is  Aviva</span>
+                <span class="reporter-method-output">PloicyHolder's Expiring Premium sent from Excel is  10000</span>
+                <span class="reporter-method-output">PloicyHolder's Target Premium sent from Excel is  10000</span>
+                <span class="reporter-method-output">PloicyHolder's Target Insurer sent from Excel is  AIG</span>
+                <span class="reporter-method-output">PloicyHolder's Property Type sent from Excel is  Bungalow - semi-detached</span>
+                <span class="reporter-method-output">Has the home previously suffered any damage as a result of subsidence, landslip, heave, structural movement?  Home never suffered any damage</span>
+                <span class="reporter-method-output">Is the home the client’s main residence ?  Main UK residence</span>
+                <span class="reporter-method-output">Who occupies the home and its outbuildings ?  Family and domestic employees</span>
+                <span class="reporter-method-output">Are the home or any outbuildings used for business or professional purposes ?   Admin only, no visitors</span>
+                <span class="reporter-method-output">Intruder alarm    Remote monitoring (ARC)</span>
+                <span class="reporter-method-output">Fire alarm    Integrated with intruder alarm</span>
+                <span class="reporter-method-output">Buildings Sum Assured amount    150000.0</span>
+                <span class="reporter-method-output">Buildings Sum Assured amount     150000.0</span>
+                <span class="reporter-method-output">Fineart unspecified amount     12500.0</span>
+                <span class="reporter-method-output">Currency type sent from Excel is USD ($)</span>
+                <span class="reporter-method-output">Broker sent from Excel is Alsford Page & Gems Limited</span>
+                <span class="reporter-method-output">Broker User sent from Excel is  Andrew Rowe</span>
+                <span class="reporter-method-output">Introducer name sent from Excel is  Guardian Wealth Management</span>
+                <span class="reporter-method-output">Title sent from Excel is  Mrs</span>
+                <span class="reporter-method-output">PloicyHolder name sent from Excel is  Glen</span>
+                <span class="reporter-method-output">PloicyHolder Surname sent from Excel is  Mcgrath</span>
+                <span class="reporter-method-output">PloicyHolder mobile number sent from Excel is  7278123654</span>
+                <span class="reporter-method-output">PloicyHolder email id sent from Excel is  rose@yopmail.com</span>
+                <span class="reporter-method-output">PloicyHolder gender sent from Excel is  Female</span>
+                <span class="reporter-method-output">PloicyHolder country sent from Excel is  UNITED KINGDOM</span>
+                <span class="reporter-method-output">PloicyHolder postcode sent from Excel is  ST74PH</span>
+                <span class="reporter-method-output">PloicyHolder address sent from Excel is  4 Derwent Crescent, Kidsgrove, Stoke-On-Trent</span>
+                <span class="reporter-method-output">PloicyHolder marrital status  sent from Excel is  Single</span>
+                <span class="reporter-method-output">PloicyHolder Date of Birth sent from Excel is  20/05/1995</span>
+                <span class="reporter-method-output">PloicyHolder Employment Status sent from Excel is  Financially Assisted</span>
+                <span class="reporter-method-output">PloicyHolder Current insurer name sent from Excel is  AIG</span>
+                <span class="reporter-method-output">PloicyHolder's Expiring Premium sent from Excel is  15500.0</span>
+                <span class="reporter-method-output">PloicyHolder's Target Premium sent from Excel is  15500.0</span>
+                <span class="reporter-method-output">PloicyHolder's Target Insurer sent from Excel is  Aviva</span>
+                <span class="reporter-method-output">PloicyHolder's Property Type sent from Excel is  Flat - lower ground floor</span>
+                <span class="reporter-method-output">Has the home previously suffered any damage as a result of subsidence, landslip, heave, structural movement?  Once damaged in flood</span>
+                <span class="reporter-method-output">Is the home the client’s main residence ?  Main residence</span>
+                <span class="reporter-method-output">Who occupies the home and its outbuildings ?  Tenants</span>
+                <span class="reporter-method-output">Are the home or any outbuildings used for business or professional purposes ?   Admin only, no visitors</span>
+                <span class="reporter-method-output">Intruder alarm    Audible only</span>
+                <span class="reporter-method-output">Fire alarm    Audible only</span>
+                <span class="reporter-method-output">Buildings Sum Assured amount    255000.0</span>
+                <span class="reporter-method-output">Buildings Sum Assured amount     255000.0</span>
+                <span class="reporter-method-output">Fineart unspecified amount     25000.0</span>
+                <span class="reporter-method-output">Currency type sent from Excel is USD ($)</span>
+                <span class="reporter-method-output">Broker sent from Excel is Alsford Page & Gems Limited</span>
+                <span class="reporter-method-output">Broker User sent from Excel is  Andrew Rowe</span>
+                <span class="reporter-method-output">Introducer name sent from Excel is  TLC Estate Agents</span>
+                <span class="reporter-method-output">PloicyHolder name sent from Excel is  Ricky</span>
+                <span class="reporter-method-output">PloicyHolder Surname sent from Excel is  Ponting</span>
+                <span class="reporter-method-output">PloicyHolder mobile number sent from Excel is  8017293466</span>
+                <span class="reporter-method-output">PloicyHolder email id sent from Excel is  patel@yopmail.com</span>
+                <span class="reporter-method-output">PloicyHolder gender sent from Excel is  Male</span>
+                <span class="reporter-method-output">PloicyHolder country sent from Excel is  UNITED KINGDOM</span>
+                <span class="reporter-method-output">PloicyHolder postcode sent from Excel is  ST74PH</span>
+                <span class="reporter-method-output">PloicyHolder address sent from Excel is  3 Derwent Crescent, Kidsgrove, Stoke-On-Trent</span>
+                <span class="reporter-method-output">PloicyHolder marrital status  sent from Excel is  Single</span>
+                <span class="reporter-method-output">PloicyHolder Date of Birth sent from Excel is  18/05/1998</span>
+                <span class="reporter-method-output">PloicyHolder Employment Status sent from Excel is  Financially Assisted</span>
+                <span class="reporter-method-output">PloicyHolder's Property Type sent from Excel is  Bungalow - semi-detached</span>
+                <span class="reporter-method-output">Has the home previously suffered any damage as a result of subsidence, landslip, heave, structural movement?  Home never suffered any damage</span>
+                <span class="reporter-method-output">Is the home the client’s main residence ?  Main UK residence</span>
+                <span class="reporter-method-output">Who occupies the home and its outbuildings ?  Tenants</span>
+                <span class="reporter-method-output">Are the home or any outbuildings used for business or professional purposes ?   Admin only, no visitors</span>
+                <span class="reporter-method-output">Intruder alarm    Remote monitoring (ARC)</span>
+                <span class="reporter-method-output">Fire alarm    Integrated with intruder alarm</span>
+                <span class="reporter-method-output">Buildings Sum Assured amount    50000.0</span>
+                <span class="reporter-method-output">Fineart unspecified amount     5000.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Protect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Protect" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase.PrivateClient</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openbrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">login</span>
+                <span class="method-start">17131 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testClient</span>
+                <span class="method-start">17147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">290625 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
