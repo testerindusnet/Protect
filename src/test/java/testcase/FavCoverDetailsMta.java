@@ -493,7 +493,7 @@ catch(Exception e)
    						Thread.sleep(5000);
    						
    						WebElement txtlocation=driver.findElement(By.xpath("//input[@class='small pound numaricField requiredNumaric calSameLocAmount']"));
-   						/*if(!Buildings1.equals(""))
+   						if(!Buildings1.equals(""))
    					    {	
    					   	 
    						try {
@@ -507,13 +507,13 @@ catch(Exception e)
    			{
    				e.printStackTrace();
    			}
-   					    }*/
+   					    }
    						
    						String building1price= ((JavascriptExecutor) driver).executeScript("return arguments[0].value;",txtlocation).toString();
    						System.out.println(" Amount for Building is: "+building1price);
    						logger.log(LogStatus.PASS," Amount for Building is: "+building1price);
    						WebElement intransit =driver.findElement(By.xpath("//input[@id='in_transit']"));
-   						/*if(!transit.equals(""))
+   						if(!transit.equals(""))
    					    {	
    					   	 
    						try {
@@ -528,7 +528,7 @@ catch(Exception e)
    			{
    				e.printStackTrace();
    			}
-   					    }*/
+   					    }
    						
    						String transitprice= ((JavascriptExecutor) driver).executeScript("return arguments[0].value;",intransit).toString();
    						System.out.println(" Amount for Building is: "+transitprice);
